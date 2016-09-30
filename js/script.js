@@ -1,15 +1,4 @@
-function changeImage(para)
-{
-    
-    document.getElementById(para).style.cursor = "pointer";    
-    document.getElementById("imgView").src = "./img/" + para + ".jpg";    
-}
 
-function initImage(para)
-{
-    document.getElementById(para).style.cursor = "default";    
-    document.getElementById("imgView").src = "./img/camera.jpg";
-} 
 //to reset all input data
 function reSet() 
 {

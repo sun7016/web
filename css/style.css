@@ -38,14 +38,17 @@ article {
     margin: 20px 0px;
 }
 
-article #main {
-    width: 80%;
+article #items {
+    width: 75%;
     margin:0 auto;
 }
-
+article #check{
+    width: 5%;
+    float: left;
+}
 article #pic {
     float: left;
-    width: 30%;
+    width: 20%;
 }
 
 article #details {
